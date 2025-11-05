@@ -1,0 +1,11 @@
+# Ignore virtual environments and cache
+venv/
+__pycache__/
+*.pkl
+*.joblib
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.csv
