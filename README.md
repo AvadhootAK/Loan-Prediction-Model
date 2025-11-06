@@ -60,7 +60,7 @@ The main goal of this project was to understand the complete ML workflow — fro
 
 The app is deployed on **Streamlit Cloud**.
 You can access it here:
-[Loan Prediction App - Streamlit Cloud](https://loan-prediction-modelgit-ckwdsqc7rbpxsqyhl43psm.streamlit.app/)
+[Loan Prediction App - Streamlit Cloud](https://loan-prediction-model-ckwdsqc7rbpxsqyhl43psm.streamlit.app/)
 
 ---
 
