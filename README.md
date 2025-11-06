@@ -80,6 +80,6 @@ The goal of this project was to build a supervised machine learning model that c
 
 ## Author
 
-Avadhoot Kulkarni
+Avadhoot Kulkarni|
 Electronics and Telecommunication Engineer | Data Science & Machine Learning Enthusiast
 
