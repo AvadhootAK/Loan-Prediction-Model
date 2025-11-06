@@ -1,85 +1,85 @@
 
-# Loan Approval Prediction using Machine Learning
+# Loan Prediction App
 
-This project predicts whether a loan application will be approved based on applicant details such as income, education, credit history, and property area. The model is deployed using Streamlit for interactive prediction.
+This is my first end-to-end Machine Learning project — a Loan Prediction App that predicts whether a loan should be approved or not.
+
+It uses **Logistic Regression** as the model and is deployed on **Streamlit Cloud**.
+
+---
 
 ## Project Overview
 
-The goal of this project was to build a supervised machine learning model that can classify loan approval status. The dataset was preprocessed, encoded, scaled, and then used to train and evaluate multiple models. Logistic Regression was finalized based on accuracy and interpretability.
+The main goal of this project was to understand the complete ML workflow — from data preprocessing to model building and deployment.
+
+**Key steps followed:**
+
+1. Collected and cleaned the dataset
+2. Encoded categorical variables
+3. Scaled numeric features
+4. Trained a Logistic Regression model
+5. Evaluated accuracy (~86%)
+6. Built a Streamlit web app interface
+7. Deployed the app on Streamlit Cloud
+
+---
 
 ## Tech Stack
 
 * Python
-* Pandas, NumPy, Scikit-learn
+* Pandas, NumPy
+* Scikit-learn
 * Streamlit
 * Joblib
 
-## Steps Involved
+---
 
-1. **Data Preprocessing**
+## How to Run Locally
 
-   * Handled missing values
-   * Encoded categorical features using Label Encoding
-   * Scaled numerical features using StandardScaler
-
-2. **Exploratory Data Analysis (EDA)**
-
-   * Checked distributions and relationships between features
-   * Observed that `Credit_History` was the most influential feature
-
-3. **Model Building**
-
-   * Tested Logistic Regression, Decision Tree, and Random Forest
-   * Selected Logistic Regression for balanced accuracy and simplicity
-   * Final model achieved around 86% accuracy
-
-4. **Model Deployment**
-
-   * Built a Streamlit web app for real-time predictions
-   * User inputs are encoded and scaled before prediction
-   * Model predicts whether a loan will be approved or not
-
-## Files Included
-
-* `loan_prediction.ipynb` – Jupyter notebook containing data preprocessing, training, and evaluation
-* `app.py` – Streamlit app script for model deployment
-* `loan_model.joblib` – Saved trained model
-* `scaler.joblib` – Scaler used for numeric feature standardization
-* `requirements.txt` – List of dependencies required to run the project
-
-## How to Run
-
-1. Clone the repository:
+1. Clone this repository
 
    ```bash
-   git clone https://github.com/<your-username>/loan-prediction-ml.git
+   git clone https://github.com/yourusername/loan-prediction-app.git
+   cd loan-prediction-app
    ```
-2. Navigate to the project directory:
+
+2. Install dependencies
 
    ```bash
-   cd loan-prediction-ml
+   pip install -r requirements.txt
    ```
-3. Install dependencies:
 
-4. Run the Streamlit app:
+3. Run the app
 
    ```bash
    streamlit run app.py
    ```
 
-## Output
+---
 
-* The app takes user inputs such as gender, income, dependents, credit history, etc.
-* After processing, it displays whether the **loan is approved or not approved**.
+## Deployment
 
-## Insights
+The app is deployed on **Streamlit Cloud**.
+You can access it here:
+[Loan Prediction App - Streamlit Cloud](https://loan-prediction-modelgit-ckwdsqc7rbpxsqyhl43psm.streamlit.app/)
 
-* Credit History plays a dominant role in loan approval prediction.
-* The dataset is somewhat imbalanced, which affects model generalization.
-* Future improvement can include using more balanced data and testing models like Random Forest, XGBoost, or LightGBM.
+---
+
+## Learnings
+
+* End-to-end implementation of a Machine Learning project
+* Data preprocessing and feature scaling
+* Logistic Regression model training
+* Streamlit app deployment workflow
+
+---
+
+## Future Scope
+
+* Try other ML models like Random Forest and XGBoost
+* Improve UI and add visualizations
+* Optimize model performance further
 
 ## Author
 
-Avadhoot Kulkarni|
-Electronics and Telecommunication Engineer | Data Science & Machine Learning Enthusiast
-
+Avadhoot Kulkarni |
+Electronics and Telecommunication Engineer | Data Science and AI Enthusiast
